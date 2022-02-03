@@ -1,7 +1,7 @@
 {
   "name": "@app/header",
   "scripts": {
-    "start": "webpack serve --port 8090 --env standalone",
+    "start": "webpack serve --env standalone",
     
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack",
